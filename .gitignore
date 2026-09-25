@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+build/
+dist/
+*.manifest
+*.spec.bak
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local / OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# User config & profiles created during testing
+profiles.json
+settings.json
