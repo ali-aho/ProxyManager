@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/screenshots/banner.png" alt="ProxyManager Banner" width="100%" />
+
 # 🌐 ProxyManager
 
 ### Modern, Ultra-Fast Windows Proxy Management Desktop Application
@@ -10,6 +12,7 @@
 [![UI](https://img.shields.io/badge/UI-CustomTkinter-emerald.svg)](https://github.com/TomSchimansky/CustomTkinter)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes%20%E2%99%A5-brightgreen.svg)](https://github.com/ali-aho/ProxyManager)
 [![Issues](https://img.shields.io/badge/Issues-Welcome-green.svg)](https://github.com/ali-aho/ProxyManager/issues)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-10B981.svg)](https://github.com/ali-aho/ProxyManager/releases/tag/v1.0.0)
 
 ---
 
@@ -20,6 +23,38 @@
 </div>
 
 **ProxyManager** is a modern, lightweight, open-source Windows application designed to manage, switch, and monitor your network proxy connections effortlessly. Built with Python, CustomTkinter, and Win32 APIs, it delivers a glassmorphism dark aesthetic, live connection metrics, and reliable system integration without annoying UAC popups or lagging console windows.
+
+---
+
+## 📸 Screenshots & Interface
+
+### ⚡ Dashboard
+<table>
+  <tr>
+    <td width="50%">
+      <p align="center"><b>Connected State (Active Duration & Live Latency)</b></p>
+      <img src="docs/screenshots/dashboard_connected.png" alt="Connected Dashboard" width="100%"/>
+    </td>
+    <td width="50%">
+      <p align="center"><b>Standby State (One-Click Hero Connect)</b></p>
+      <img src="docs/screenshots/dashboard.png" alt="Standby Dashboard" width="100%"/>
+    </td>
+  </tr>
+</table>
+
+### 🌐 Profiles Management & ⚙️ Settings
+<table>
+  <tr>
+    <td width="50%">
+      <p align="center"><b>Proxy Profiles & Real-Time Search</b></p>
+      <img src="docs/screenshots/profiles.png" alt="Profiles Management" width="100%"/>
+    </td>
+    <td width="50%">
+      <p align="center"><b>Application & System Startup Settings</b></p>
+      <img src="docs/screenshots/settings.png" alt="Settings Interface" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -62,13 +97,13 @@ If ProxyManager helps you:
 ## 📥 Installation
 
 ### Method 1: Windows Installer (Recommended)
-Download the latest `ProxyManager_Setup.exe` from the Releases page:
+Download the latest `ProxyManager_Setup.exe` from the [Releases page](https://github.com/ali-aho/ProxyManager/releases/latest):
 - Run the setup wizard.
 - Choose any custom directory of your choice (e.g. `C:\Program Files\ProxyManager` or custom drive).
 - Complete the installation and launch immediately without admin prompts.
 
 ### Method 2: Standalone Executable
-You can download and run `ProxyManager.exe` directly as a standalone portable application.
+Download `ProxyManager.exe` directly from the [Releases page](https://github.com/ali-aho/ProxyManager/releases/latest) as a standalone portable application.
 
 ---
 

@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/screenshots/banner.png" alt="ProxyManager Banner" width="100%" />
+
 # 🌐 پروکسی منیجر (ProxyManager)
 
 ### نرم‌افزار مدرن، پرسرعت و متن‌باز مدیریت پروکسی در ویندوز
@@ -10,6 +12,7 @@
 [![UI](https://img.shields.io/badge/رابط%20کاربری-CustomTkinter-emerald.svg)](https://github.com/TomSchimansky/CustomTkinter)
 [![Open Source](https://img.shields.io/badge/متن%20باز-کاملاً%20رایگان-brightgreen.svg)](https://github.com/ali-aho/ProxyManager)
 [![Issues](https://img.shields.io/badge/ایشیوها-پاسخگویی%20فعال-green.svg)](https://github.com/ali-aho/ProxyManager/issues)
+[![Release](https://img.shields.io/badge/نسخه-v1.0.0-10B981.svg)](https://github.com/ali-aho/ProxyManager/releases/tag/v1.0.0)
 
 ---
 
@@ -20,6 +23,38 @@
 </div>
 
 **پروکسی منیجر (ProxyManager)** یک ابزار دسکتاپ مدرن، سبک و کاملاً **متن‌باز (Open Source)** برای سیستم‌عامل ویندوز است که امکان مدیریت، سوئیچ سریع و پایش لحظه‌ای کانکشن‌های پروکسی سیستم را به شکلی ساده و چشم‌نواز فراهم می‌کند. این پروژه با پایتون، CustomTkinter و APIهای بومی ویندوز توسعه یافته و بدون نیاز به دسترسی ادمین (UAC) یا باز شدن پنجره‌های آزاردهنده CMD اجرا می‌شود.
+
+---
+
+## 📸 تصاویر و محیط نرم‌افزار (Screenshots)
+
+### ⚡ داشبورد وضعیت و اتصال سریع (Dashboard)
+<table>
+  <tr>
+    <td width="50%">
+      <p align="center"><b>وضعیت متصل (نمایش تایمر و پینگ زنده)</b></p>
+      <img src="docs/screenshots/dashboard_connected.png" alt="داشبورد متصل" width="100%"/>
+    </td>
+    <td width="50%">
+      <p align="center"><b>وضعیت آماده به اتصال (کلیک برای اتصال)</b></p>
+      <img src="docs/screenshots/dashboard.png" alt="داشبورد آماده" width="100%"/>
+    </td>
+  </tr>
+</table>
+
+### 🌐 مدیریت پروفایل‌ها و ⚙️ تنظیمات برنامه
+<table>
+  <tr>
+    <td width="50%">
+      <p align="center"><b>مدیریت پروفایل‌ها و جستجوی لحظه‌ای</b></p>
+      <img src="docs/screenshots/profiles.png" alt="مدیریت پروفایل‌ها" width="100%"/>
+    </td>
+    <td width="50%">
+      <p align="center"><b>تنظیمات استارتاپ ویندوز و سیستم تری</b></p>
+      <img src="docs/screenshots/settings.png" alt="تنظیمات نرم‌افزار" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -62,13 +97,13 @@
 ## 📥 راهنمای نصب و استفاده
 
 ### روش اول: فایل نصبی ویندوز (پیشنهادی)
-فایل نصبی `ProxyManager_Setup.exe` را دانلود کنید:
+فایل نصبی `ProxyManager_Setup.exe` را از [صفحه ریلیزها](https://github.com/ali-aho/ProxyManager/releases/latest) دانلود کنید:
 - ویزارد نصب را باز کنید.
 - پوشه دلخواه خود را برای نصب انتخاب کنید (مثلاً `D:\ProxyManager` یا مسیر پیش‌فرض).
 - بعد از نصب، برنامه بدون نیاز به مجوز ادمین بلافاصله و با سرعت اجرا خواهد شد.
 
 ### روش دوم: فایل پرتابل (Standalone Exe)
-فایل اجرایی `ProxyManager.exe` را مستقیماً دانلود و بدون نیاز به نصب اجرا کنید.
+فایل اجرایی `ProxyManager.exe` را مستقیماً از [صفحه ریلیزها](https://github.com/ali-aho/ProxyManager/releases/latest) دانلود و بدون نیاز به نصب اجرا کنید.
 
 ---
 
